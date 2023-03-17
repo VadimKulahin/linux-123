@@ -15,3 +15,14 @@ for run in {50..100}
 do 
 touch $run.txt 
 done 
+
+0 nano sleeper.sh
+   1 chmod 764 sleeper.sh
+   2 ./sleeper.sh
+   3 nona sleeper.sh
+   4 nano sleeper.sh
+   5 ./sleeper.sh
+   6 cat /tmp/1.txt
+   7 nano sleeper.sh
+   8 ls
+   9 history
